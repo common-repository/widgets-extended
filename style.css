@@ -1,0 +1,73 @@
+/* CSS Document */
+
+.WPWERecentComments ul li,
+.WPWEAuthors ul li,
+.WPWEPages ul li,
+.WPWEPosts ul li {
+	display:block;
+	clear:both;
+	margin-bottom:10px;
+	}
+
+.WPWERecentComments ul li a,
+.WPWEAuthors ul li a,	
+.WPWEPages ul li a,
+.WPWEPosts ul li a {
+	padding-top:3px;
+	font-size:15px;
+	}
+
+.WPWERecentComments ul li .thumb img,
+.WPWEAuthors ul li .thumb img,
+.WPWEPages ul li .thumb img,
+.WPWEPosts ul li .thumb img {
+	float:left;
+	margin-right:10px;
+	border: #efefef solid 2px;
+	}
+
+.WPWERecentComments ul li span,
+.WPWEAuthors ul li span,
+.WPWEPages ul li span,		
+.WPWEPosts ul li span {
+	font-size:12px;
+	color:#666;
+	}	
+	
+.WPWETags .no-list {
+	list-style:none;
+	}
+	
+.WPWETags .no-list li {
+	display:inline-block;
+	margin:5px;
+	}
+	
+.WPWETags .list {
+	list-style:none;
+	}
+	
+.WPWETags .list li {
+	display:block;
+	margin:5px;
+	}	
+	
+.WPWETags li span {
+	margin:0;
+	padding:0;
+	}
+	
+.WPWETags li a	{
+	}
+	
+.WPWETags li .tag {
+	padding:5px;
+	background:#333;
+	border: #333 solid 1px;
+	}	
+	
+.WPWETags li .count {
+	padding:5px;
+	background:#FFF;
+	border: #333 solid 1px;
+	}		
